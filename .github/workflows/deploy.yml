@@ -46,5 +46,5 @@ jobs:
         run: |
           cp ${{ github.workspace }}/target/*.jar \
              /home/ubutun/product_project/product_source/product-management.jar
-          chown ubuntu:ubutun /home/ubutun/product_project/product_source/product-management.jar
+          chown ubutun:ubutun /home/ubutun/product_project/product_source/product-management.jar
 
